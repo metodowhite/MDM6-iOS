@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.21" systemVersion="14A261i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7S0-zI-9ae">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.13"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="64" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="UjK-kc-WsZ">
+                                <rect key="frame" x="0.0" y="0.0" width="160" height="284"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="37"/>
+                                <inset key="contentEdgeInsets" minX="7" minY="0.0" maxX="0.0" maxY="7"/>
+                                <state key="normal" title="Marcel Duchamp" backgroundImage="Marcel Duchamp">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="eLl-dA-kca" kind="push" id="FvW-cW-FYK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="cNf-b9-XJL">
+                                <rect key="frame" x="160" y="0.0" width="160" height="284"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="37"/>
+                                <inset key="contentEdgeInsets" minX="7" minY="0.0" maxX="0.0" maxY="7"/>
+                                <state key="normal" title="Tristan Tzara" backgroundImage="Tristan Tzara">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="YKL-lW-Qnq">
+                                <rect key="frame" x="160" y="284" width="160" height="284"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="37"/>
+                                <inset key="contentEdgeInsets" minX="7" minY="0.0" maxX="0.0" maxY="7"/>
+                                <state key="normal" title="Andre Breton" backgroundImage="Andre Breton">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="t5Q-Sh-lcs">
+                                <rect key="frame" x="0.0" y="284" width="160" height="284"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="37"/>
+                                <inset key="contentEdgeInsets" minX="7" minY="0.0" maxX="0.0" maxY="7"/>
+                                <state key="normal" title="Man Ray" backgroundImage="Man Ray">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cNf-b9-XJL" firstAttribute="height" secondItem="YKL-lW-Qnq" secondAttribute="height" id="7ba-ob-qJA"/>
+                            <constraint firstItem="UjK-kc-WsZ" firstAttribute="height" secondItem="t5Q-Sh-lcs" secondAttribute="height" id="Dvp-lZ-Lxf"/>
+                            <constraint firstItem="YKL-lW-Qnq" firstAttribute="leading" secondItem="t5Q-Sh-lcs" secondAttribute="trailing" id="EIS-SD-7Km"/>
+                            <constraint firstItem="UjK-kc-WsZ" firstAttribute="width" secondItem="t5Q-Sh-lcs" secondAttribute="width" id="GZO-tH-5la"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="YKL-lW-Qnq" secondAttribute="bottom" id="Gss-k6-l1R"/>
+                            <constraint firstItem="t5Q-Sh-lcs" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="KFj-Sa-qIC"/>
+                            <constraint firstItem="cNf-b9-XJL" firstAttribute="leading" secondItem="UjK-kc-WsZ" secondAttribute="trailing" id="Mmz-6D-WEJ"/>
+                            <constraint firstItem="UjK-kc-WsZ" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="UCL-Qs-ndc"/>
+                            <constraint firstItem="cNf-b9-XJL" firstAttribute="width" secondItem="UjK-kc-WsZ" secondAttribute="width" id="Wp6-LH-epc"/>
+                            <constraint firstItem="YKL-lW-Qnq" firstAttribute="top" secondItem="cNf-b9-XJL" secondAttribute="bottom" id="dJc-qm-39O"/>
+                            <constraint firstItem="cNf-b9-XJL" firstAttribute="width" secondItem="YKL-lW-Qnq" secondAttribute="width" id="jWv-rn-9Th"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="t5Q-Sh-lcs" secondAttribute="bottom" id="jbr-yf-TRl"/>
+                            <constraint firstItem="cNf-b9-XJL" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="kew-b5-iUC"/>
+                            <constraint firstItem="UjK-kc-WsZ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="sIh-lR-aar"/>
+                            <constraint firstItem="YKL-lW-Qnq" firstAttribute="leading" secondItem="t5Q-Sh-lcs" secondAttribute="trailing" id="wLB-it-bDz"/>
+                            <constraint firstAttribute="trailing" secondItem="cNf-b9-XJL" secondAttribute="trailing" id="y1z-fA-UfM"/>
+                            <constraint firstAttribute="trailing" secondItem="YKL-lW-Qnq" secondAttribute="trailing" id="z4f-YB-JhG"/>
+                            <constraint firstItem="t5Q-Sh-lcs" firstAttribute="top" secondItem="UjK-kc-WsZ" secondAttribute="bottom" id="zuV-x9-W0g"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="eF3-QD-cAI"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1072" y="457"/>
+        </scene>
+        <!--View Controller - Marcel Duchamp-->
+        <scene sceneID="5LT-yU-UUV">
+            <objects>
+                <viewController id="eLl-dA-kca" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wpi-wh-UnT"/>
+                        <viewControllerLayoutGuide type="bottom" id="pHT-oA-73U"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tyJ-Td-QU5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marcel_duchamp" translatesAutoresizingMaskIntoConstraints="NO" id="cKq-ic-SFz">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Y2-BO-oaz">
+                                <rect key="frame" x="20" y="155" width="200" height="393"/>
+                                <color key="backgroundColor" white="1" alpha="0.29999999999999999" colorSpace="calibratedWhite"/>
+                                <string key="text">Chanante ipsum dolor sit amet, mamellas magna cabeza de viejo cuerpo de joven. Et páharo exercitation no te digo ná y te lo digo tó, tempor ut tempor. Con Hoy a las 17:00 las rodillas in the guanter 664675592  enim ut, pepinoninoni vivo con tu madre en un castillo a tope con la maquinaria nostrud tontiploster. Zagal eres un pirámidee ayy qué gustico enjuto mojamuto labore ea cascoporro traeros tol jamón muchachada churretoso forrondosco te viste de torero. Agazapao, viejuno fresquete síberet eiusmod. Atiendee dolore chiquititantantan one more time ullamco zanguango tempor pero qué pelazo bizcoché gatete droja es de traca artista monetes. Cacahué chotera mangurrián ojete moreno elit. Hueles avinagrado enim cartoniano tontaco tollina to sueltecico labore gambitero horcate melifluo cosica dolore.Chanante ipsum dolor sit amet, mamellas magna cabeza de viejo cuerpo de joven. Et páharo exercitation no te digo ná y te lo digo tó, tempor ut tempor. Con las rodillas in the guanter enim ut, pepinoninoni vivo con tu madre en un castillo a tope con la maquinaria nostrud tontiploster. Zagal eres un pirámidee ayy qué gustico enjuto mojamuto labore ea cascoporro traeros tol jamón muchachada churretoso forrondosco te viste de torero. Agazapao, viejuno fresquete síberet eiusmod. Atiendee dolore chiquititantantan one more time ullamco zanguango tempor pero qué pelazo bizcoché gatete droja es de traca artista monetes. Cacahué chotera mangurrián ojete moreno elit. Hueles avinagrado enim cartoniano tontaco tollina to sueltecico labore gambitero horcate melifluo cosica dolore.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="cKq-ic-SFz" secondAttribute="trailing" id="NYg-ft-qjh"/>
+                            <constraint firstItem="1Y2-BO-oaz" firstAttribute="leading" secondItem="tyJ-Td-QU5" secondAttribute="leading" constant="20" id="ah5-ec-3PI"/>
+                            <constraint firstItem="cKq-ic-SFz" firstAttribute="leading" secondItem="tyJ-Td-QU5" secondAttribute="leading" id="bqu-BI-xjp"/>
+                            <constraint firstItem="pHT-oA-73U" firstAttribute="top" secondItem="1Y2-BO-oaz" secondAttribute="bottom" constant="20" id="eGN-Rc-5Rt"/>
+                            <constraint firstItem="1Y2-BO-oaz" firstAttribute="top" relation="lessThanOrEqual" secondItem="wpi-wh-UnT" secondAttribute="bottom" priority="250" constant="91" id="qMb-KA-8BI"/>
+                            <constraint firstAttribute="trailing" secondItem="1Y2-BO-oaz" secondAttribute="trailing" constant="100" id="sbp-KI-Ree"/>
+                            <constraint firstItem="pHT-oA-73U" firstAttribute="top" secondItem="cKq-ic-SFz" secondAttribute="bottom" id="wwR-fC-MG0"/>
+                            <constraint firstItem="cKq-ic-SFz" firstAttribute="top" secondItem="tyJ-Td-QU5" secondAttribute="top" id="yba-IY-2UH"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Marcel Duchamp" id="pNN-4g-Bbw"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HOW-Dr-tdT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1515" y="457"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="AdM-bX-H2j">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7S0-zI-9ae" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="PQz-U5-Nr4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="gPk-TZ-B7x"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ash-nc-EMp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="636" y="457"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Andre Breton" width="160" height="284"/>
+        <image name="Man Ray" width="160" height="284"/>
+        <image name="Marcel Duchamp" width="160" height="284"/>
+        <image name="Tristan Tzara" width="160" height="284"/>
+        <image name="marcel_duchamp" width="1074" height="1269"/>
+    </resources>
+</document>

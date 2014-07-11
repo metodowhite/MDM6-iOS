@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CB086481968255F0013C087 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB086471968255F0013C087 /* main.m */; };
+		2CB0864B1968255F0013C087 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB0864A1968255F0013C087 /* AppDelegate.m */; };
+		2CB0864E1968255F0013C087 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB0864D1968255F0013C087 /* ViewController.m */; };
+		2CB086511968255F0013C087 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB0864F1968255F0013C087 /* Main.storyboard */; };
+		2CB086531968255F0013C087 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CB086521968255F0013C087 /* Images.xcassets */; };
+		2CB0865F1968255F0013C087 /* LannisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB0865E1968255F0013C087 /* LannisterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CB086591968255F0013C087 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CB0863A1968255F0013C087 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CB086411968255F0013C087;
+			remoteInfo = Lannister;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CB086421968255F0013C087 /* Lannister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lannister.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CB086461968255F0013C087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CB086471968255F0013C087 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CB086491968255F0013C087 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2CB0864A1968255F0013C087 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2CB0864C1968255F0013C087 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2CB0864D1968255F0013C087 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2CB086501968255F0013C087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CB086521968255F0013C087 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2CB086581968255F0013C087 /* LannisterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LannisterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CB0865D1968255F0013C087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CB0865E1968255F0013C087 /* LannisterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LannisterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CB0863F1968255F0013C087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CB086551968255F0013C087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CB086391968255F0013C087 = {
+			isa = PBXGroup;
+			children = (
+				2CB086441968255F0013C087 /* Lannister */,
+				2CB0865B1968255F0013C087 /* LannisterTests */,
+				2CB086431968255F0013C087 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CB086431968255F0013C087 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CB086421968255F0013C087 /* Lannister.app */,
+				2CB086581968255F0013C087 /* LannisterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CB086441968255F0013C087 /* Lannister */ = {
+			isa = PBXGroup;
+			children = (
+				2CB086491968255F0013C087 /* AppDelegate.h */,
+				2CB0864A1968255F0013C087 /* AppDelegate.m */,
+				2CB0864C1968255F0013C087 /* ViewController.h */,
+				2CB0864D1968255F0013C087 /* ViewController.m */,
+				2CB0864F1968255F0013C087 /* Main.storyboard */,
+				2CB086521968255F0013C087 /* Images.xcassets */,
+				2CB086451968255F0013C087 /* Supporting Files */,
+			);
+			path = Lannister;
+			sourceTree = "<group>";
+		};
+		2CB086451968255F0013C087 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CB086461968255F0013C087 /* Info.plist */,
+				2CB086471968255F0013C087 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CB0865B1968255F0013C087 /* LannisterTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CB0865E1968255F0013C087 /* LannisterTests.m */,
+				2CB0865C1968255F0013C087 /* Supporting Files */,
+			);
+			path = LannisterTests;
+			sourceTree = "<group>";
+		};
+		2CB0865C1968255F0013C087 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CB0865D1968255F0013C087 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CB086411968255F0013C087 /* Lannister */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CB086621968255F0013C087 /* Build configuration list for PBXNativeTarget "Lannister" */;
+			buildPhases = (
+				2CB0863E1968255F0013C087 /* Sources */,
+				2CB0863F1968255F0013C087 /* Frameworks */,
+				2CB086401968255F0013C087 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lannister;
+			productName = Lannister;
+			productReference = 2CB086421968255F0013C087 /* Lannister.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CB086571968255F0013C087 /* LannisterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CB086651968255F0013C087 /* Build configuration list for PBXNativeTarget "LannisterTests" */;
+			buildPhases = (
+				2CB086541968255F0013C087 /* Sources */,
+				2CB086551968255F0013C087 /* Frameworks */,
+				2CB086561968255F0013C087 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CB0865A1968255F0013C087 /* PBXTargetDependency */,
+			);
+			name = LannisterTests;
+			productName = LannisterTests;
+			productReference = 2CB086581968255F0013C087 /* LannisterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CB0863A1968255F0013C087 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = metodowhite;
+				TargetAttributes = {
+					2CB086411968255F0013C087 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					2CB086571968255F0013C087 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 2CB086411968255F0013C087;
+					};
+				};
+			};
+			buildConfigurationList = 2CB0863D1968255F0013C087 /* Build configuration list for PBXProject "Lannister" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CB086391968255F0013C087;
+			productRefGroup = 2CB086431968255F0013C087 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CB086411968255F0013C087 /* Lannister */,
+				2CB086571968255F0013C087 /* LannisterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CB086401968255F0013C087 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CB086511968255F0013C087 /* Main.storyboard in Resources */,
+				2CB086531968255F0013C087 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CB086561968255F0013C087 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CB0863E1968255F0013C087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CB0864E1968255F0013C087 /* ViewController.m in Sources */,
+				2CB0864B1968255F0013C087 /* AppDelegate.m in Sources */,
+				2CB086481968255F0013C087 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CB086541968255F0013C087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CB0865F1968255F0013C087 /* LannisterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CB0865A1968255F0013C087 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CB086411968255F0013C087 /* Lannister */;
+			targetProxy = 2CB086591968255F0013C087 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CB0864F1968255F0013C087 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CB086501968255F0013C087 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CB086601968255F0013C087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2CB086611968255F0013C087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CB086631968255F0013C087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Lannister/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2CB086641968255F0013C087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Lannister/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2CB086661968255F0013C087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lannister.app/Lannister";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LannisterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		2CB086671968255F0013C087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lannister.app/Lannister";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LannisterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CB0863D1968255F0013C087 /* Build configuration list for PBXProject "Lannister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CB086601968255F0013C087 /* Debug */,
+				2CB086611968255F0013C087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CB086621968255F0013C087 /* Build configuration list for PBXNativeTarget "Lannister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CB086631968255F0013C087 /* Debug */,
+				2CB086641968255F0013C087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2CB086651968255F0013C087 /* Build configuration list for PBXNativeTarget "LannisterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CB086661968255F0013C087 /* Debug */,
+				2CB086671968255F0013C087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CB0863A1968255F0013C087 /* Project object */;
+}
