@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6185.7" systemVersion="14A283o" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6181.2"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d3e-Zc-mJB">
+                                <rect key="frame" x="178" y="83" width="124" height="30"/>
+                                <state key="normal" title="loadRemoteJSON">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="loadRemoteJSON:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="CwV-HS-irZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m6B-kG-oNT">
+                                <rect key="frame" x="192" y="134" width="96" height="30"/>
+                                <state key="normal" title="serializeJSON">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="serializeJSON:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="YNQ-QX-AA6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jnV-Wj-6v4">
+                                <rect key="frame" x="182" y="188" width="116" height="30"/>
+                                <state key="normal" title="deSerializeJSON">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="deSerializeJSON:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="C5R-5i-MUH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="m6B-kG-oNT" firstAttribute="top" secondItem="d3e-Zc-mJB" secondAttribute="bottom" constant="21" id="1PF-B9-m7r"/>
+                            <constraint firstItem="jnV-Wj-6v4" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Hr8-tO-WKU"/>
+                            <constraint firstItem="d3e-Zc-mJB" firstAttribute="centerX" secondItem="m6B-kG-oNT" secondAttribute="centerX" id="e8u-rU-HoI"/>
+                            <constraint firstItem="d3e-Zc-mJB" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="63" id="rXS-Ly-92L"/>
+                            <constraint firstItem="m6B-kG-oNT" firstAttribute="centerX" secondItem="jnV-Wj-6v4" secondAttribute="centerX" id="uIU-TA-unR"/>
+                            <constraint firstItem="jnV-Wj-6v4" firstAttribute="top" secondItem="m6B-kG-oNT" secondAttribute="bottom" constant="24" id="whM-yQ-QEq"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

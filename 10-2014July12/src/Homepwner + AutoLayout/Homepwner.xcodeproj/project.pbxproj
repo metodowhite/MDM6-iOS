@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C1B7A62194C60D400804025 /* HPImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B7A61194C60D400804025 /* HPImageStore.m */; };
+		2C2F90D81939F2E70069E87D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2F90D71939F2E70069E87D /* Foundation.framework */; };
+		2C2F90DA1939F2E70069E87D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2F90D91939F2E70069E87D /* CoreGraphics.framework */; };
+		2C2F90DC1939F2E70069E87D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2F90DB1939F2E70069E87D /* UIKit.framework */; };
+		2C2F90E21939F2E70069E87D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C2F90E01939F2E70069E87D /* InfoPlist.strings */; };
+		2C2F90E41939F2E70069E87D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2F90E31939F2E70069E87D /* main.m */; };
+		2C2F90E81939F2E70069E87D /* HPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2F90E71939F2E70069E87D /* HPAppDelegate.m */; };
+		2C2F90EA1939F2E70069E87D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C2F90E91939F2E70069E87D /* Images.xcassets */; };
+		2C2F90F11939F2E70069E87D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2F90F01939F2E70069E87D /* XCTest.framework */; };
+		2C2F90F21939F2E70069E87D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2F90D71939F2E70069E87D /* Foundation.framework */; };
+		2C2F90F31939F2E70069E87D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2F90DB1939F2E70069E87D /* UIKit.framework */; };
+		2C2F90FB1939F2E70069E87D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C2F90F91939F2E70069E87D /* InfoPlist.strings */; };
+		2C2F90FD1939F2E70069E87D /* HomepwnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2F90FC1939F2E70069E87D /* HomepwnerTests.m */; };
+		2C2F91081939F40F0069E87D /* HPItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2F91071939F40F0069E87D /* HPItemsViewController.m */; };
+		2C2F910B1939F72D0069E87D /* MWItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2F910A1939F72D0069E87D /* MWItem.m */; };
+		2C2F910E1939F7C10069E87D /* HPItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2F910D1939F7C10069E87D /* HPItemStore.m */; };
+		2C9C41EC1943065500F1F349 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C9C41EB1943065500F1F349 /* HeaderView.xib */; };
+		2C9C41F01943222300F1F349 /* HPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9C41EE1943222300F1F349 /* HPDetailViewController.m */; };
+		2C9C41F11943222300F1F349 /* HPDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C9C41EF1943222300F1F349 /* HPDetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C2F90F41939F2E70069E87D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C2F90CC1939F2E70069E87D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C2F90D31939F2E70069E87D;
+			remoteInfo = Homepwner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C1B7A60194C60D400804025 /* HPImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPImageStore.h; sourceTree = "<group>"; };
+		2C1B7A61194C60D400804025 /* HPImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPImageStore.m; sourceTree = "<group>"; };
+		2C2F90D41939F2E70069E87D /* Homepwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homepwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C2F90D71939F2E70069E87D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2C2F90D91939F2E70069E87D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2C2F90DB1939F2E70069E87D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2C2F90DF1939F2E70069E87D /* Homepwner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Homepwner-Info.plist"; sourceTree = "<group>"; };
+		2C2F90E11939F2E70069E87D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2C2F90E31939F2E70069E87D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C2F90E51939F2E70069E87D /* Homepwner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Homepwner-Prefix.pch"; sourceTree = "<group>"; };
+		2C2F90E61939F2E70069E87D /* HPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPAppDelegate.h; sourceTree = "<group>"; };
+		2C2F90E71939F2E70069E87D /* HPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPAppDelegate.m; sourceTree = "<group>"; };
+		2C2F90E91939F2E70069E87D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2C2F90EF1939F2E70069E87D /* HomepwnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomepwnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C2F90F01939F2E70069E87D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2C2F90F81939F2E70069E87D /* HomepwnerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomepwnerTests-Info.plist"; sourceTree = "<group>"; };
+		2C2F90FA1939F2E70069E87D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2C2F90FC1939F2E70069E87D /* HomepwnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomepwnerTests.m; sourceTree = "<group>"; };
+		2C2F91061939F40F0069E87D /* HPItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPItemsViewController.h; sourceTree = "<group>"; };
+		2C2F91071939F40F0069E87D /* HPItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPItemsViewController.m; sourceTree = "<group>"; };
+		2C2F91091939F72D0069E87D /* MWItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWItem.h; sourceTree = "<group>"; };
+		2C2F910A1939F72D0069E87D /* MWItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWItem.m; sourceTree = "<group>"; };
+		2C2F910C1939F7C10069E87D /* HPItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPItemStore.h; sourceTree = "<group>"; };
+		2C2F910D1939F7C10069E87D /* HPItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPItemStore.m; sourceTree = "<group>"; };
+		2C9C41EB1943065500F1F349 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		2C9C41ED1943222300F1F349 /* HPDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPDetailViewController.h; sourceTree = "<group>"; };
+		2C9C41EE1943222300F1F349 /* HPDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPDetailViewController.m; sourceTree = "<group>"; };
+		2C9C41EF1943222300F1F349 /* HPDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HPDetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C2F90D11939F2E70069E87D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C2F90DA1939F2E70069E87D /* CoreGraphics.framework in Frameworks */,
+				2C2F90DC1939F2E70069E87D /* UIKit.framework in Frameworks */,
+				2C2F90D81939F2E70069E87D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C2F90EC1939F2E70069E87D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C2F90F11939F2E70069E87D /* XCTest.framework in Frameworks */,
+				2C2F90F31939F2E70069E87D /* UIKit.framework in Frameworks */,
+				2C2F90F21939F2E70069E87D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C2F90CB1939F2E70069E87D = {
+			isa = PBXGroup;
+			children = (
+				2C2F90DD1939F2E70069E87D /* Homepwner */,
+				2C2F90F61939F2E70069E87D /* HomepwnerTests */,
+				2C2F90D61939F2E70069E87D /* Frameworks */,
+				2C2F90D51939F2E70069E87D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C2F90D51939F2E70069E87D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C2F90D41939F2E70069E87D /* Homepwner.app */,
+				2C2F90EF1939F2E70069E87D /* HomepwnerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C2F90D61939F2E70069E87D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C2F90D71939F2E70069E87D /* Foundation.framework */,
+				2C2F90D91939F2E70069E87D /* CoreGraphics.framework */,
+				2C2F90DB1939F2E70069E87D /* UIKit.framework */,
+				2C2F90F01939F2E70069E87D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C2F90DD1939F2E70069E87D /* Homepwner */ = {
+			isa = PBXGroup;
+			children = (
+				2C9C41EB1943065500F1F349 /* HeaderView.xib */,
+				2C2F90E61939F2E70069E87D /* HPAppDelegate.h */,
+				2C2F90E71939F2E70069E87D /* HPAppDelegate.m */,
+				2C9C41ED1943222300F1F349 /* HPDetailViewController.h */,
+				2C9C41EE1943222300F1F349 /* HPDetailViewController.m */,
+				2C9C41EF1943222300F1F349 /* HPDetailViewController.xib */,
+				2C1B7A60194C60D400804025 /* HPImageStore.h */,
+				2C1B7A61194C60D400804025 /* HPImageStore.m */,
+				2C2F910C1939F7C10069E87D /* HPItemStore.h */,
+				2C2F910D1939F7C10069E87D /* HPItemStore.m */,
+				2C2F91061939F40F0069E87D /* HPItemsViewController.h */,
+				2C2F91071939F40F0069E87D /* HPItemsViewController.m */,
+				2C2F90E91939F2E70069E87D /* Images.xcassets */,
+				2C2F91091939F72D0069E87D /* MWItem.h */,
+				2C2F910A1939F72D0069E87D /* MWItem.m */,
+				2C2F90DE1939F2E70069E87D /* Supporting Files */,
+			);
+			path = Homepwner;
+			sourceTree = "<group>";
+		};
+		2C2F90DE1939F2E70069E87D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C2F90DF1939F2E70069E87D /* Homepwner-Info.plist */,
+				2C2F90E01939F2E70069E87D /* InfoPlist.strings */,
+				2C2F90E31939F2E70069E87D /* main.m */,
+				2C2F90E51939F2E70069E87D /* Homepwner-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C2F90F61939F2E70069E87D /* HomepwnerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C2F90FC1939F2E70069E87D /* HomepwnerTests.m */,
+				2C2F90F71939F2E70069E87D /* Supporting Files */,
+			);
+			path = HomepwnerTests;
+			sourceTree = "<group>";
+		};
+		2C2F90F71939F2E70069E87D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C2F90F81939F2E70069E87D /* HomepwnerTests-Info.plist */,
+				2C2F90F91939F2E70069E87D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C2F90D31939F2E70069E87D /* Homepwner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C2F91001939F2E70069E87D /* Build configuration list for PBXNativeTarget "Homepwner" */;
+			buildPhases = (
+				2C2F90D01939F2E70069E87D /* Sources */,
+				2C2F90D11939F2E70069E87D /* Frameworks */,
+				2C2F90D21939F2E70069E87D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Homepwner;
+			productName = Homepwner;
+			productReference = 2C2F90D41939F2E70069E87D /* Homepwner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C2F90EE1939F2E70069E87D /* HomepwnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C2F91031939F2E70069E87D /* Build configuration list for PBXNativeTarget "HomepwnerTests" */;
+			buildPhases = (
+				2C2F90EB1939F2E70069E87D /* Sources */,
+				2C2F90EC1939F2E70069E87D /* Frameworks */,
+				2C2F90ED1939F2E70069E87D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C2F90F51939F2E70069E87D /* PBXTargetDependency */,
+			);
+			name = HomepwnerTests;
+			productName = HomepwnerTests;
+			productReference = 2C2F90EF1939F2E70069E87D /* HomepwnerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C2F90CC1939F2E70069E87D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = metodowhite;
+				TargetAttributes = {
+					2C2F90EE1939F2E70069E87D = {
+						TestTargetID = 2C2F90D31939F2E70069E87D;
+					};
+				};
+			};
+			buildConfigurationList = 2C2F90CF1939F2E70069E87D /* Build configuration list for PBXProject "Homepwner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2C2F90CB1939F2E70069E87D;
+			productRefGroup = 2C2F90D51939F2E70069E87D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C2F90D31939F2E70069E87D /* Homepwner */,
+				2C2F90EE1939F2E70069E87D /* HomepwnerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C2F90D21939F2E70069E87D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C9C41EC1943065500F1F349 /* HeaderView.xib in Resources */,
+				2C9C41F11943222300F1F349 /* HPDetailViewController.xib in Resources */,
+				2C2F90E21939F2E70069E87D /* InfoPlist.strings in Resources */,
+				2C2F90EA1939F2E70069E87D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C2F90ED1939F2E70069E87D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C2F90FB1939F2E70069E87D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C2F90D01939F2E70069E87D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C2F910E1939F7C10069E87D /* HPItemStore.m in Sources */,
+				2C9C41F01943222300F1F349 /* HPDetailViewController.m in Sources */,
+				2C1B7A62194C60D400804025 /* HPImageStore.m in Sources */,
+				2C2F90E81939F2E70069E87D /* HPAppDelegate.m in Sources */,
+				2C2F91081939F40F0069E87D /* HPItemsViewController.m in Sources */,
+				2C2F910B1939F72D0069E87D /* MWItem.m in Sources */,
+				2C2F90E41939F2E70069E87D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C2F90EB1939F2E70069E87D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C2F90FD1939F2E70069E87D /* HomepwnerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C2F90F51939F2E70069E87D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C2F90D31939F2E70069E87D /* Homepwner */;
+			targetProxy = 2C2F90F41939F2E70069E87D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C2F90E01939F2E70069E87D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C2F90E11939F2E70069E87D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2C2F90F91939F2E70069E87D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C2F90FA1939F2E70069E87D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C2F90FE1939F2E70069E87D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2C2F90FF1939F2E70069E87D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C2F91011939F2E70069E87D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Homepwner/Homepwner-Prefix.pch";
+				INFOPLIST_FILE = "Homepwner/Homepwner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2C2F91021939F2E70069E87D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Homepwner/Homepwner-Prefix.pch";
+				INFOPLIST_FILE = "Homepwner/Homepwner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2C2F91041939F2E70069E87D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Homepwner.app/Homepwner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Homepwner/Homepwner-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HomepwnerTests/HomepwnerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2C2F91051939F2E70069E87D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Homepwner.app/Homepwner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Homepwner/Homepwner-Prefix.pch";
+				INFOPLIST_FILE = "HomepwnerTests/HomepwnerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C2F90CF1939F2E70069E87D /* Build configuration list for PBXProject "Homepwner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C2F90FE1939F2E70069E87D /* Debug */,
+				2C2F90FF1939F2E70069E87D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C2F91001939F2E70069E87D /* Build configuration list for PBXNativeTarget "Homepwner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C2F91011939F2E70069E87D /* Debug */,
+				2C2F91021939F2E70069E87D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C2F91031939F2E70069E87D /* Build configuration list for PBXNativeTarget "HomepwnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C2F91041939F2E70069E87D /* Debug */,
+				2C2F91051939F2E70069E87D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C2F90CC1939F2E70069E87D /* Project object */;
+}
